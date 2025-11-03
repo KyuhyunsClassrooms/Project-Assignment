@@ -1,7 +1,19 @@
 #include <stdio.h>
 
 /*
-    1. [설계]에서 정의한 구조체(struct)를 여기에 선언하세요.
+    1. [설계]에서 정의한 변수, 배열, (필요하면) 구조체를 여기에 선언하세요.
+    
+    예시 - 배열 사용:
+    char names[100][20];
+    int scores[100];
+    int count = 0;
+    
+    예시 - 구조체 사용 (선택):
+    struct Student {
+        char name[20];
+        int score;
+    };
+    struct Student students[100];
 */
 
 
